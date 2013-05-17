@@ -1,0 +1,16 @@
+{
+	'name': 'jkd',
+	'version': '0.0.1',
+	'description': 'Jeet Kune Do - Fighting Game',
+	'homepage': 'http://antlerpig.com',
+	'license': 'Not Free or Open. You do not have permission to use this.',
+	'private': 'true',
+	'repository': {
+		'type': 'git',
+		'url': 'http://github.com/jacobabrennan/jkd.git'
+	},
+	'dependencies': {
+		'express': '3.x',
+		'socket.io': '>=0.9.13'
+	}
+}
