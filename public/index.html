@@ -1,0 +1,28 @@
+<!doctype html>
+    <html>
+        <head>
+            <title>Jeet Kune Do: Test 01</title>
+			<script src="/socket.io/socket.io.js"></script>
+            <script src="dm.js"></script>
+            <script src="client.js"></script>
+            <script src="key_capture.js"></script>
+            <script src="resource_library.js"></script>
+			<script src="networking.js"></script>
+			<script src="display.js"></script>
+			<script src="battle.js"></script>
+			<script src="match.js"></script>
+			<script src="title_screen.js"></script>
+			<script src="fighter_selection.js"></script>
+        </head>
+        <body style="background: grey">
+            <canvas id="jkd" style="background: black"></canvas>
+            <script>
+				console.log('Remember to Edit the connection address in public/index.html')
+				var _conf = {
+					id: 'jkd',
+					address: 'http://192.168.4.49:7231/'
+				}
+                client.setup(_conf);
+            </script>
+        </body>
+    </html>
