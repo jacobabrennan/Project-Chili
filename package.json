@@ -1,9 +1,9 @@
 {
-	"name": "jkd",
+	"name": "Project Chili",
 	"version": "0.0.1",
-	"description": "Jeet Kune Do - Fighting Game",
-	"homepage": "http://antlerpig.com",
-	"license": "Not Free or Open.",
+	"description": "Nodejs powered Fighting Game",
+	"homepage": "http://github.com/jacobabrennan/Project-Chili",
+	"license": "None",
 	"private": "true",
 	"repository": {
 		"type": "git",
